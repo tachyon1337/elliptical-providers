@@ -1,0 +1,17 @@
+[
+
+    "./lib/cookie/cookie.js",
+    "./lib/cookie/cookieProvider.js",
+    "./lib/identity/identity.js",
+    "./lib/memory/memory.js",
+    "./lib/odata/odata.js",
+    "./lib/pagination/pagination.js",
+    "./lib/rest/rest.js",
+    "./lib/session/cookie.js",
+    "./lib/session/local.js",
+    "./lib/session/storage.js",
+    "./lib/template/template.js",
+    "./lib/transitions/transitions.js",
+    "./lib/validation/validation.js"
+
+]
