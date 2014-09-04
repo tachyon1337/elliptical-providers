@@ -110,12 +110,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$cookie v0.9.0.1
+ * elliptical.providers.$cookie
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
@@ -194,13 +190,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$identity v0.9.0.1
+ * elliptical.providers.$identity
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
- * elliptical-mvc
  */
 
 //umd pattern
@@ -298,12 +289,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$memory v0.9.0.1
+ * elliptical.providers.$memory
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
@@ -976,13 +963,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$odata v0.9.1
+ * elliptical.providers.$odata
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
- *
  */
 
 //umd pattern
@@ -1051,13 +1033,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$pagination v0.9.1
+ * elliptical.providers.$pagination
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
- *
  * returns a pagination ui context(object) for template binding
  *
  */
@@ -1262,16 +1239,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$rest v0.9.1
+ * elliptical.providers.$rest
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
- * elliptical-mvc
- * elliptical-http
- * $odata
- *
  * rest provider
  */
 
@@ -1585,12 +1554,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.session.$cookie v0.9.0.1
+ * elliptical.providers.session.$cookie
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
@@ -1678,12 +1643,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.session.$local v0.9.0.1
+ * elliptical.providers.session.$local
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
@@ -1777,12 +1738,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.session.$storage v0.9.0.1
+ * elliptical.providers.session.$storage
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
@@ -1875,12 +1832,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$template v0.9.0.1
+ * elliptical.providers.$template
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
@@ -1896,7 +1849,7 @@
     } else {
         // Browser globals (root is window)
         root.elliptical.providers=root.elliptical.providers || {};
-        root.elliptical.providers.$template = factory(root.elliptical,dust);
+        root.elliptical.providers.$template = factory(root.elliptical,root.elliptical.utils,dust);
         root.returnExports = root.elliptical.providers.$template;
     }
 }(this, function (elliptical,utils,dust) {
@@ -2101,13 +2054,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$transitions v0.9.1
+ * elliptical.providers.$transitions
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
- *
  */
 
 //umd pattern
@@ -2189,12 +2137,8 @@
 
 /*
  * =============================================================
- * elliptical.providers.$validation v0.9.1
+ * elliptical.providers.$validation
  * =============================================================
- * Copyright (c) 2014 S.Francis, MIS Interactive
- * Licensed MIT
- *
- * Dependencies:
  *
  */
 
