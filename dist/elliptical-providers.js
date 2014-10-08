@@ -2154,7 +2154,7 @@
     } else {
         // Browser globals (root is window)
         root.elliptical.providers=root.elliptical.providers || {};
-        root.elliptical.providers$validation=factory(root.elliptical);
+        root.elliptical.providers.$validation=factory(root.elliptical);
         root.returnExports = root.elliptical.providers.$validation;
     }
 }(this, function (elliptical) {
